@@ -1,0 +1,80 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "project aurora",
+      "intents": [
+        {
+          "name": "TodayIntent",
+          "samples": [
+            "what is my plan",
+            "read my plan",
+            "my plan today"
+          ]
+        },
+        {
+          "name": "NextTaskIntent",
+          "samples": [
+            "what is next",
+            "my next task"
+          ]
+        },
+        {
+          "name": "RoutineIntent",
+          "samples": [
+            "read my routines",
+            "my daily routine"
+          ]
+        },
+        {
+          "name": "AddNoteIntent",
+          "slots": [
+            {
+              "name": "text",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "add a note {text}"
+          ]
+        },
+        {
+          "name": "AddTaskIntent",
+          "slots": [
+            {
+              "name": "text",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "add a task {text}"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}

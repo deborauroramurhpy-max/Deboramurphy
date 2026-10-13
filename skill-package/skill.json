@@ -1,0 +1,33 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-GB": {
+          "name": "Project Aurora",
+          "summary": "Personal voice access to Aurora plans, notes and tasks.",
+          "description": "Read your daily plan and routines, and save notes or tasks with confirmation. Requires a separately configured private Aurora bridge. No AI calls.",
+          "examplePhrases": [
+            "Alexa, open project aurora",
+            "Alexa, ask project aurora what is my plan",
+            "Alexa, ask project aurora what is next"
+          ]
+        }
+      },
+      "isAvailableWorldwide": false,
+      "distributionCountries": [
+        "GB"
+      ],
+      "category": "ORGANIZERS_AND_ASSISTANTS"
+    },
+    "apis": {
+      "custom": {}
+    },
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": true,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    }
+  }
+}
